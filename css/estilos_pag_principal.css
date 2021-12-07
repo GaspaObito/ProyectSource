@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 1px;
+}
+
+body {
+    background-image: -webkit-linear-gradient(-45deg, #fafafa 50%, #ffffff 50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #2286d8;
+    /*fallback for old browsers*/
+    background: -webkit-linear-gradient(to right, #0e77ee, hsla(214, 90%, 50%, 0.589)), url(../imagenes/inicio/ImgPortada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0c6debb2, hsla(219, 25%, 89%, 0.308)), url(../imagenes/inicio/ImgPortada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.textos-header h1 {
+    font-size: 28px;
+    color: rgba(41, 89, 247, 0.877);
+    margin-left: 55%;
+    padding: 5%;
+}
+
+.textos-header h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: rgba(45, 142, 233, 0.829);
+    margin-left: 73%;
+    padding: 0%;
+}
+
+.text-center-header {
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 30%;
+    color: rgba(233, 95, 180, 0.781);
+    padding: 1%
+}
+
+.texto-medio-h1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(24, 212, 197, 0.781);
+}
+
+.texto-medio-h2 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(19, 194, 127, 0.781);
+}
+
+.texto-termino-h1 {
+    color: rgba(78, 154, 241, 0.781);
+}
+
+.texto-termino-h2 {
+    color: rgba(74, 160, 231, 0.781);
+}
+
+.p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/* Estilo en el texto imagenes giratorias */
+
+.pp {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+
+/* IMAGENES GIRATORIAS */
+
+.imgGiratoria1 {
+    border-radius: 5px;
+}
+
+.imgGiratoria2 {
+    border-radius: 5px;
+}
+
+.imgGiratoria3 {
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+footer {
+    background: #131111;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(248, 239, 239)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

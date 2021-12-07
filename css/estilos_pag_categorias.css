@@ -1,0 +1,170 @@
+* {
+    padding: 1px;
+}
+
+
+/* inicio estilos header */
+
+header {
+    width: 100%;
+    height: 3400px;
+    background: #00b09b;
+    /*fallback for old browsers*/
+    background: -webkit-linear-gradient(to right, #5f67ca, hsla(120, 20%, 95%, 0.589)), url(../imagenes/IMG_P3.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3048b396, hsla(229, 53%, 48%, 0.479)), url(../imagenes/IMG_P3.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    /*Este da el efecto de pagina con imagen estatica = fixed*/
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* TEXTOS H1 H2*/
+
+.textos-header h1 {
+    font-size: 30px;
+    color: rgba(228, 238, 229, 0.836);
+    margin-left: 50%;
+    padding: 3%;
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgba(232, 235, 228, 0.781);
+    margin-right: 70%;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.text-center-header {
+    font-size: 40px;
+    margin-top: 10%;
+    margin-right: 70%;
+    color: rgba(252, 245, 249, 0.781);
+    padding: 2%
+}
+
+
+/* BOTONES */
+
+.ButtonAsesorate {
+    padding: 1px;
+    margin-left: 9%;
+    font-weight: 500;
+    margin-top: 0%;
+}
+
+.ButtonConsulta {
+    padding: px;
+    margin-left: 9%;
+    font-weight: 500;
+    margin-top: 0%;
+}
+
+
+/* IMAGENES */
+
+.img_1 {
+    margin-top: 1px;
+    margin-left: 55%;
+}
+
+.img_2 {
+    margin-top: 2px;
+    margin-left: 55%;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+}
+
+.img_3 {
+    margin-top: 2px;
+    margin-left: 55%;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+}
+
+
+/* PARRAFOS */
+
+.parrafo_1 {
+    color: rgba(228, 238, 229, 0.836);
+    margin-left: 50%;
+    padding: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafo_2 {
+    color: rgba(228, 238, 229, 0.836);
+    margin-left: 40%;
+    padding: 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafo_3 {
+    color: rgba(228, 238, 229, 0.836);
+    margin-left: 40%;
+    padding: 12%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* fin estilos header */
+
+
+/* footer */
+
+footer {
+    background: #0f0f0f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(230, 223, 223)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

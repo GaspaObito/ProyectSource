@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0.3%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(104, 219, 69, 0.507) 0%, rgba(235, 125, 34, 0.534) 100%), url(../imagenes/deporte/img_depor_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body {
+    background-image: -webkit-linear-gradient(-45deg, #616a6d 50%, #cf9b29 50%);
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(219, 223, 223);
+}
+
+
+/* INICIO ESTILOS PAGINA PULGA EXT */
+
+.parrafo {
+    width: 55%;
+    color: #2cfdfd;
+}
+
+.titulo1 {
+    text-align: center;
+    color: #41ebc6;
+    padding: 9%;
+}
+
+.titulo2 {
+    text-align: center;
+    color: #35d7e2;
+    padding: 19px;
+}
+
+
+/* FIN ESTILOS PAGINA PULGA EXT */
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: auto;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(248, 252, 251)
+}
+
+
+/* footer */
+
+footer {
+    background: #0f0f0f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(187, 179, 179)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

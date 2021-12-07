@@ -1,0 +1,59 @@
+.padre{
+
+margin-left:40%;
+background-color:rgb(92, 86, 86); 
+padding:10px 20px 20px; 
+width:300px; 
+border-radius:10px;
+box-shadow: 0 0 56px 0 rgba(222, 245, 16, 0.945) ;
+
+}
+.hijouno{
+border-radius:5px;
+height:25px;
+width:250px;
+}
+
+.hijodos{
+border-radius:5px;
+height:25px;
+width:250px;
+}
+
+.hijotres{
+border-radius:5px;
+height:25px;
+width:250px; 
+}
+
+
+.hijocinco{
+border-radius:5px;
+height:25px;
+width:250px;
+}
+
+.tio{
+border-radius:5px;
+height: 30px;
+width:80px;
+margin-bottom:15px;
+box-shadow: 0 0 56px 0 rgba(35, 236, 17, 0.945) ;
+}
+
+.primo{
+color:#1dd8c2; 
+margin-left:35%; 
+margin-right:30%;    
+box-shadow: 0 0 55px 0 rgba(28, 14, 223, 0.945) ;
+padding:25px;
+}
+
+.casa{
+ color:floralwhite;
+}
+    
+
+body{
+    background:url(../imagenes/img1.jpg);
+}

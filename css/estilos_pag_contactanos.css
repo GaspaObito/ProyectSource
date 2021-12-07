@@ -1,0 +1,78 @@
+
+* {
+	margin: 0;
+	padding: 2.5px;
+	box-sizing: border-box;
+}
+
+body {
+	background: #0d0e0d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+    text-decoration:none;
+    color: #f1f6ff;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: rgb(86, 215, 219);
+}
+
+
+
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
+footer .redes-sociales {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 90px;
+	height: 90px;
+	background: #000;
+	color: #fff;
+	margin: 50px;
+	text-align: center;
+	border-radius: 100px;
+	transition: .3s ease all;
+}
+
+footer .redes-sociales .twitter {background: #2de736;}
+footer .redes-sociales .facebook {background: #3b5998;}
+footer .redes-sociales .instagram {background: #e6772d;}
+
+footer .redes-sociales a i {
+	font-size: 20px;
+	line-height: 80px;
+}
+
+footer .contenedor-icono:hover a {
+	animation: icono .8s ease;
+}
+
+@keyframes icono {
+	from {
+		transform: rotate3d(0,0,0,0);
+	}
+	to {
+		transform: rotate3d(0,1,0, 360deg);
+	}
+}
+
+footer .creado-por {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #43e751;
+}
+
+footer .creado-por a {color: #000;}
+footer .creado-por a:hover {text-decoration: underline;}

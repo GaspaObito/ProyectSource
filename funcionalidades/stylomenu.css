@@ -1,0 +1,53 @@
+* {
+    padding:0px;
+    margin:0%;
+
+}
+
+#principal{
+ margin:auto;
+ width: 200px;
+ font-family: Arial, Helvetica, sans-serif;/*para cambiarle la fuente de la letra*/
+}  
+
+ul , ol{
+ list-style: none;/*para quintar los puntitos y cuadraditos que estorban pequeños*/
+}
+
+.nav  li  a{
+  background-color: black ;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px /*altura*/ 15px;/*largo*/
+  display: block;/*se despliega en bloque si fuera display line se amontona*/
+}
+
+.nav  li a:hover {
+ background-color: rgb(53, 127, 211);
+}
+
+.nav > li  { /*los li directos dentro de nav tengan las siguientes propiedades , tambien le da forma a el bloque de listas */
+ float:left;
+} 
+
+.nav li ul {
+ display:none; /*desaparece los submenus los subtitulos*/
+ position:absolute;/*se empalma con el menu al tamaño por eso es absolute*/
+
+}
+
+.nav li:hover > ul {
+ display:block; /*abra en bloque los submenu de ul*/
+}
+
+.nav li ul li  {
+ position:relative;
+}
+.nav li ul li ul {
+right:-103px; /*para correr hacia la derecha el subtitulo */
+top: 0px; /*para correr arriba o abajo el subtitulo*/
+}
+
+.PAPITO{
+    background: color #fff;
+}

@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0.3%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: -webkit-linear-gradient(-45deg, #b5e26d 50%, #43e250 50%);
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(219, 223, 223);
+}
+
+header {
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(122, 219, 43, 0.507) 0%, rgba(221, 233, 51, 0.534) 100%), url(../imagenes/productos_naturales/img_product_nat_8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: auto;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(248, 252, 251)
+}
+
+
+/* INICIO ESTILOS PATIÑ */
+
+article {
+    text-align: left;
+    /* padding: 15px; */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* body { */
+
+
+/* text-align: center; */
+
+
+/* } */
+
+.articlemedic {
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .fondo {
+    padding: 15px;
+    margin: 15px auto;
+    width: 1100px;
+} */
+
+.seccion {
+    background: rgb(212, 248, 178);
+    /* padding: 10px; */
+    border: 1px solid rgb(216, 166, 75);
+}
+
+.tituloG {
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    font-family: Constantia;
+    /* background: rgb(218, 204, 85); */
+    background-image: -webkit-linear-gradient(-45deg, #b5e26d 50%, #43e250 50%);
+}
+
+.menu {
+    text-align: center;
+    padding: 15px;
+}
+
+.menu li {
+    display: inline-block;
+    border: 2px solid black;
+    list-style: none;
+    padding: 4px;
+    font: bold 18 px verdana
+}
+
+.columna {
+    margin: -810px auto;
+    width: 250px;
+    float: right;
+    border: 1px solid black;
+    background: rgb(161, 161, 69);
+}
+
+h2 {
+    /* font-family: Forte; */
+    font-size: 38px;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    padding: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: black;
+}
+
+#FuenteSacada {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+time {
+    background: blanchedalmond;
+}
+
+
+/* FIN ESTILOS PATIÑ */
+
+
+/*INICIO ESTILOS CARRUCEL*/
+
+body {
+    /* min-height: 90%; */
+    /* background-image: linear-gradient(-45deg, #f2f6fa 50%, #a7ddee 50%); */
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.titulog {
+    text-align: center;
+    padding: 3px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: rgb(15, 15, 15);
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor {
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #d36740;
+}
+
+
+/*ESTILOS MATERIALIZE Le vamos a dar estilos a el carrucel*/
+
+.carousel {
+    min-height: 500px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    /*Los textos esten centrados de forma horizontal y vertical dentro de la cajita*/
+    flex-direction: column;
+    /*los elementos lo pongan uno debajo del otro*/
+    justify-content: center;
+    /*centrarlo*/
+    align-items: center;
+    user-select: none;
+    /*esta propiedad hace que cuando se arrastre , no seleccione los textos*/
+    /*background: #ccc;*/
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img {
+    /*acceder a la imagen de "carousel item" de html*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*para que no se deforme la imagen*/
+    position: absolute;
+    /*para poner la imagen de fondo*/
+    top: 0;
+    /*coordenadas para poner la imagen en la parte de arriba */
+    left: 0;
+    /*coordenadas para poner la imagen hacia la izquierda y arriba */
+    z-index: -1;
+    /*para poner los textos que aparezcan adelante de la imagen*/
+    border-radius: 15px;
+    /*para este se quita el fondo gris de "carousel item" para que funcione */
+}
+
+.carousel .indicators .indicator-item {
+    /*se quiere editar el indicador pequeño debajo de las imagenes*/
+    border-radius: 0%;
+    transform: rotate(45deg);
+    /*que rote 45 grados*/
+    margin: 0 15px;
+    /*coordenada de 0 hacia abajo y 15 a los costados*/
+    background: #dddad9;
+    /*fondo*/
+}
+
+
+/* footer */
+
+footer {
+    background: #0f0f0f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(248, 239, 239)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0.3%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: -webkit-linear-gradient(-45deg, #cee4ee 50%, #c2d4e9 50%);
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(219, 223, 223);
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(154, 73, 247, 0.507) 0%, rgba(34, 225, 235, 0.534) 100%), url(../imagenes/tecnologia/img_tec_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: auto;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(248, 252, 251)
+}
+
+
+/* Comienzo css tecnologia externo */
+
+article {
+    /* text-align: center; */
+    padding: 0px;
+    font-size: 20px;
+    color: currentColor;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.fondo {
+    /* padding: 1px; */
+    border: 2px solid rgb(240, 230, 230);
+    margin: 15px auto;
+    width: 1100px;
+    background: rgb(240, 234, 234);
+    ;
+}
+
+.seccion {
+    background: rgb(109, 148, 231);
+    padding: 5px;
+    border: 2px solid rgb(243, 240, 240);
+    margin: 15px;
+    width: 800px;
+}
+
+.titulog {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: -webkit-linear-gradient(-45deg, #d3e1e7 50%, #c2d4e9 50%);
+}
+
+
+/* .menu { */
+
+
+/* text-align:center; */
+
+
+/* padding: 8px; */
+
+
+/* background: rgb(40, 28, 204); */
+
+
+/* font-family: 'Courier New', Courier, monospace; */
+
+
+/* } */
+
+.menu li {
+    display: inline-block;
+    border: 2px solid rgb(247, 252, 253);
+    list-style: none;
+    padding: 4px;
+    font: bold 18 px verdana
+}
+
+.columna {
+    margin: -810px auto;
+    width: 250px;
+    float: right;
+    border: 1px solid rgb(99, 238, 226);
+    background: rgb(201, 219, 235);
+}
+
+h2 {
+    /* font-family: Juice ITC; */
+    font-size: 38px;
+    padding: 10px;
+}
+
+img {
+    align-content: center;
+    width: 400px;
+    padding: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(236, 227, 227);
+}
+
+#FuenteSacada {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 65, 173);
+}
+
+time {
+    background: rgb(230, 225, 218);
+}
+
+
+/* FIN css tecnologia externo */
+
+
+/* footer */
+
+footer {
+    background: #0f0f0f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(248, 239, 239)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #ffffff 50%, #1a80f3 50%);
+    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+    /*efecto de fondo fixed*/
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.sabor {
+    color: #fff;
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
+
+
+/*ESTILOS MATERIALIZE Le vamos a dar estilos a el carrucel*/
+
+.carousel {
+    min-height: 500px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    /*Los textos esten centrados de forma horizontal y vertical dentro de la cajita*/
+    flex-direction: column;
+    /*los elementos lo pongan uno debajo del otro*/
+    justify-content: center;
+    /*centrarlo*/
+    align-items: center;
+    user-select: none;
+    /*esta propiedad hace que cuando se arrastre , no seleccione los textos*/
+    /*background: #ccc;*/
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img {
+    /*acceder a la imagen de "carousel item" de html*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*para que no se deforme la imagen*/
+    position: absolute;
+    /*para poner la imagen de fondo*/
+    top: 0;
+    /*coordenadas para poner la imagen en la parte de arriba */
+    left: 0;
+    /*coordenadas para poner la imagen hacia la izquierda y arriba */
+    z-index: -1;
+    /*para poner los textos que aparezcan adelante de la imagen*/
+    border-radius: 15px;
+    /*para este se quita el fondo gris de "carousel item" para que funcione */
+}
+
+.carousel .indicators .indicator-item {
+    /*se quiere editar el indicador pequeño debajo de las imagenes*/
+    border-radius: 0%;
+    transform: rotate(45deg);
+    /*que rote 45 grados*/
+    margin: 0 15px;
+    /*coordenada de 0 hacia abajo y 15 a los costados*/
+    background: #36221c;
+    /*fondo*/
+}
+
+
+/* footer */
+
+footer {
+    background: #0f0f0f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(248, 239, 239)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}

@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../../perfil_usuario/background_form_usuario.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: cadetblue;
+}
+
+@media(min-width:768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        margin-top: 80px;
+        border-radius: 5px;
+    }
+}
+
+
+/* footer */
+
+footer {
+    background: #0c0b0b;
+    padding: 30px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-foo p {
+    color: #ccc;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(248, 239, 239)
+}
+
+.social-media {
+    width: 50%;
+    display: list-item;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover {
+    background: #fff;
+    color: #1d86e9;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
